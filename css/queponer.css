@@ -1,0 +1,15 @@
+#textoCopia{
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    left: 65%;
+    width: 10%;
+    color: white;
+}
+
+#video{
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    border:solid 5px white;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/formulario.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+
+    <header class="Cabecera">
+
+        <nav class="menu">
+
+            <h1>Google</h1>
+
+            <ul class="fondo">
+
+                <a href="index.html"><li>INDICE</li></a>
+                <a href="formulario.html"><li>FORMULARIO</li></a>
+                <a href="tablas.html"><li>TABLA</li></a>
+                <a href="nose.html"><li>NOSE</li></a>
+                <a href="Queponer.html"><li>QUE PONER</li></a>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <section id="formulario">
+        
+        <h2>FORMULARIO</h2>
+
+        <form action="ws/php/crearUsuario.php" class="lista" method="POST">
+
+            <label >Nombre :</label>
+            <input type="text" name="nombre">
+        <br><br>
+
+            <label >Apellidos :</label>
+            <input type="text" name="apellidos">
+        <br><br>
+
+            <label >Email :</label>
+            <input type="text" name="email">
+        <br><br>
+
+            <label >Contraseña :</label>
+            <input type="text" name="contraseña">
+        <br><br>
+
+            <label >Telefono :</label>
+             <input type="text" name="telefono">
+        <br><br>
+
+            <label >Sexo :</label>
+            <input type="radio" name="sexo" value="H">H
+            <input type="radio" name="sexo" value="M">M
+        <br><br>
+
+    <input type="submit" name="enviar">
+
+    </form>
+
+    </section>
+
+</body>
+</html>

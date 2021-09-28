@@ -1,0 +1,36 @@
+
+#tabla{
+    position:absolute;
+    top: 28%;
+    left: 35%;
+    
+}
+
+
+#tabla td{
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    padding: 2px;
+    
+}
+#tabla th{
+    border-left: 2px solid white;
+}
+
+table{
+    width: 50%;
+    font-size: 150%;
+    background-color: #c5c3c6;
+    border: 5px solid white;
+    
+}
+a{
+    text-decoration: none;
+
+}
+img{
+    width: 50%;
+    height: 10%;
+}
+
+
