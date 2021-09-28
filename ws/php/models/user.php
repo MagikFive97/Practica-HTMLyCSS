@@ -1,5 +1,10 @@
 <?php
+interface iToJson
+{
 
+    public function itojson();
+
+}
 class User implements iToJson
 {
 
@@ -122,7 +127,7 @@ class User implements iToJson
     public function itojson()
     {
 
-        $cadena = "[ " . $this->getNombre() . " , " . $this->getApellido() . " , " . $this->getEmail() . " , " . $this->getSexo() . " , " . $this->getTelefono() . " , " . $this->getContrasenia() . " ] , ";
+        $cadena = '{ ' . PHP_EOL .'" nombre ":"' . $this->getNombre() .  '" ,' . PHP_EOL . '" apellido ":"' . $this->getApellido() . '" ,' . PHP_EOL . '" email ":"' . $this->getEmail() . '" ,' . PHP_EOL . '" sexo ":"' . $this->getSexo() . '" ,' . PHP_EOL . '" telefono ":"' . $this->getTelefono() . '" ,' . PHP_EOL . '" contrasenia ":"' . $this->getContrasenia() . '"' . PHP_EOL . ' } , ';
         return $cadena;
     }
 

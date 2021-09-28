@@ -33,43 +33,50 @@
         </nav>
 
     </header>
+    <main>
+        <section id="formulario">
+            
+            <h2>FORMULARIO</h2>
 
-    <section id="formulario">
-        
-        <h2>FORMULARIO</h2>
+            <form action="ws/php/crearUsuario.php" class="lista" method="POST">
 
-        <form action="ws/php/crearUsuario.php" class="lista" method="POST">
+            <article class="item1">
+                <label >Nombre :</label>
+                <input type="text" name="nombre">
+            </article>
+            <br>
+            <article class="item2">
+                <label >Apellidos :</label>
+                <input type="text" name="apellidos">
+            </article>
+            <br>
+            <article class="item3">
+                <label >Email :</label>
+                <input type="text" name="email">
+            </article>
+            <br>
+            <article class="item4">
+                <label >Contraseña :</label>
+                <input type="text" name="contraseña">
+            </article>
+            <br>
+            <article class="item5">
+                <label >Telefono :</label>
+                <input type="text" name="telefono">
+            </article>
+            <br>
+            <article class="item6">
+                <label >Sexo :</label>
+                <input type="radio" name="sexo" value="H">H
+                <input type="radio" name="sexo" value="M">M
+            </article>
+            <br>
+            <article class="item7">
+            <input type="submit" name="enviar">
+            </article>
+            </form>
 
-            <label >Nombre :</label>
-            <input type="text" name="nombre">
-        <br><br>
-
-            <label >Apellidos :</label>
-            <input type="text" name="apellidos">
-        <br><br>
-
-            <label >Email :</label>
-            <input type="text" name="email">
-        <br><br>
-
-            <label >Contraseña :</label>
-            <input type="text" name="contraseña">
-        <br><br>
-
-            <label >Telefono :</label>
-             <input type="text" name="telefono">
-        <br><br>
-
-            <label >Sexo :</label>
-            <input type="radio" name="sexo" value="H">H
-            <input type="radio" name="sexo" value="M">M
-        <br><br>
-
-    <input type="submit" name="enviar">
-
-    </form>
-
-    </section>
-
+        </section>
+    </main>
 </body>
 </html>
