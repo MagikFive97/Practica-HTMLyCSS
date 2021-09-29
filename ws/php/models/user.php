@@ -1,10 +1,5 @@
 <?php
-interface iToJson
-{
 
-    public function itojson();
-
-}
 class User implements iToJson
 {
 

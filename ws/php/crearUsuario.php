@@ -1,6 +1,8 @@
 <?php
 
-require('../php/models/user.php');
+require '../php/interfaces/interfazIto.php';
+require '../php/models/user.php';
+
 
 $nombre = $_POST ['nombre'];
 $apellidos = $_POST ['apellidos'];

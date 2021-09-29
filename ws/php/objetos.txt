@@ -1,0 +1,16 @@
+{ 
+" nombre ":"Francisco" ,
+" apellido ":"birlanga" ,
+" email ":"birlangaoriano20@elcampico.org" ,
+" sexo ":"H" ,
+" telefono ":"asdasdasd" ,
+" contrasenia ":"asdasdalsd"
+ } , 
+{ 
+" nombre ":"juanon" ,
+" apellido ":"aznar" ,
+" email ":"snfnrkfnaksnfklas@hasd.com" ,
+" sexo ":"M" ,
+" telefono ":"654654654" ,
+" contrasenia ":"ajo"
+ } , 
