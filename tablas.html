@@ -9,62 +9,34 @@
     <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/tabla.css">
+    <script src="js/tabla.js"></script>
     <title>Document</title>
 </head>
 <body>
-  <header class="Cabecera">
-    <nav class="menu">
-        <h1>Google</h1>
-        <ul class="fondo">
-            <a href="index.html"><li>INDICE</li></a>
-            <a href="formulario.html"><li>FORMULARIO</li></a>
-            <a href="tablas.html"><li>TABLA</li></a>
-            <a href="nose.html"><li>NOSE</li></a>
-            <a href="Queponer.html"><li>QUE PONER</li></a>
-        </ul>
-    </nav>
-
-</header>
-<section id="tabla">
-    <table>
-
-  <tr>
-    <th><strong>Deportes a realizar:</strong></th>
-    <th><strong>Precio de las excursiones</strong></th>
-  </tr>
-
-  <tr>
-    <td><img src="imagenes/portes (1).jpg" width="100" height="80"></td>
-
-    <td><a href=" " Title="HTML">Experiencia ciclismo:</a><br><br>
-				<a href=" " Title="HTML">Comprar:</a> <del>3.999$</del> 2.599$</td>
-  </tr>
-
-   <tr>
-    <td><img src="imagenes/portes (2).jpg" width="100" height="80"></td>
-
-    <td><a href=" " Title="HTML">Experiencia baseball:</a><br><br>
-				<a href=" " Title="HTML">Comprar:</a>  999$</td></td>
-  </tr>
-
-   <tr>
-    <td><img src="imagenes/portes (3).jpg" width="100" height="80">
-    </td>
-
-    <td><a href=" " Title="HTML">Experiencia remo:</a><br><br>
-				<a href=" " Title="HTML">Comprar:</a> 1.799$
-    </td>
-  </tr>
-
-  <tr>
-    <td><img src="imagenes/portes.jpg" width="100" height="80"></td>
-
-    <td><a href=" " Title="HTML">Experiencia windsurf:</a><br><br>
-				<a href=" " Title="HTML">Comprar:</a> 349$</td>
-    </td>
-  </tr>
-
+    <header class="Cabecera">
+        <nav class="menu">
+            <h1>Google</h1>
+            <ul class="fondo">
+                <a href="index.html"><li>INDICE</li></a>
+                <a href="formulario.html"><li>FORMULARIO</li></a>
+                <a href="tablas.html"><li>TABLA</li></a>
+                <a href="nose.html"><li>NOSE</li></a>
+                <a href="Queponer.html"><li>QUE PONER</li></a>
+            </ul>
+        </nav>
+    </header>
+    <section id="tabla" class="tabla">
+      <input type="text" id="buscador" onkeyup="buscarNombre()" placeholder="Buscador..." class="buscador">
+      <table id="importar" class="importar">
+            <tr>
+                <th><strong>nombre</strong></th>
+                <th><strong>apellido</strong></th>
+                <th><strong>email</strong></th>
+                <th><strong>sexo</strong></th>
+                <th><strong>telefono</strong></th>
+                <th><strong>acciones</strong></th>
+            </tr>
     </table>
-</section>
+    </section>
 </body>
 </html>

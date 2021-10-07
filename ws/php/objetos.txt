@@ -14,3 +14,11 @@
 " telefono ":"654654654" ,
 " contrasenia ":"ajo"
  } , 
+{ 
+" nombre ":"Ruben" ,
+" apellido ":"Alioli" ,
+" email ":"fghfghfgh@hotmail.com" ,
+" sexo ":"M" ,
+" telefono ":"654321987" ,
+" contrasenia ":"kjh"
+ } , 
