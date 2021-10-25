@@ -1,4 +1,5 @@
 window.onload = function(){
+  
     inicio();
 };
 
@@ -10,11 +11,13 @@ const usuarios = [
 ];
 
 function borrar(contador){
+
   const lista_generada = document.querySelector(`[id="generada`+contador+`"]`);
   lista_generada.innerHTML = ``;
 }
 
 function buscarNombre(){
+
   var input, filter, table, tr, td, i, txtValue , txtValue1;
   input = document.getElementById("buscador");
   filter = input.value.toUpperCase();

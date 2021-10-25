@@ -13,33 +13,26 @@
 </head>
 
 <body>
-
     <header class="Cabecera">
-
         <nav class="menu">
-
             <h1>Google</h1>
-
             <ul class="fondo">
-
                 <a href="index.html"><li>INDICE</li></a>
                 <a href="formulario.html"><li>FORMULARIO</li></a>
                 <a href="tablas.html"><li>TABLA</li></a>
                 <a href="nose.html"><li>NOSE</li></a>
                 <a href="Queponer.html"><li>QUE PONER</li></a>
-
             </ul>
-
         </nav>
-
     </header>
     <main>
         <section id="formulario">
             
             <h2>FORMULARIO</h2>
 
-            <form action="ws/php/crearUsuario.php" class="lista" method="POST">
-
+            <form action="ws/getUsuario.php" class="lista" method="get">
+            </form>
+            <form action="ws/crearUsuario2.php" class="lista" method="POST">
             <article class="item1">
                 <label >Nombre :</label>
                 <input type="text" name="nombre">
@@ -57,7 +50,7 @@
             <br>
             <article class="item4">
                 <label >Contraseña :</label>
-                <input type="text" name="contraseña">
+                <input type="text" name="contrasenia">
             </article>
             <br>
             <article class="item5">
@@ -74,7 +67,7 @@
             <article class="item7">
             <input type="submit" name="enviar">
             </article>
-            </form>
+        </form>
 
         </section>
     </main>
