@@ -1,7 +1,7 @@
 <?php
 
 require_once '../interfaces/interfazIto.php';
-require_once '/models/user.php';
+require_once '/models/User.php';
 
 /*
 $nombre = $_POST ['nombre'] ?? '';

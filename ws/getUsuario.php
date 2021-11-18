@@ -1,5 +1,5 @@
 <?php
-require_once 'accesoPDO.php';
+require_once 'AccesoPDO.php';
 $alumno = new AccesoPDO();
 $id = $_GET['id'] ?? null;
 
@@ -9,7 +9,6 @@ if ($id) {
 } else {
     $array_alumnos = $alumno->get_all();
     var_dump($array_alumnos);
-    return;
 }
 
 

@@ -1,5 +1,5 @@
 <?php
-require_once 'accesoPDO.php';
+require_once 'AccesoPDO.php';
 $alumno = new AccesoPDO();
 $id = $_GET['id'] ?? null;
 

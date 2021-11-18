@@ -1,5 +1,5 @@
 <?php
-require_once 'accesoPDO.php';
+require_once 'AccesoPDO.php';
 $alumno = new AccesoPDO();
 $nombre = $_POST ['nombre'] ?? '';
 $apellidos = $_POST ['apellidos'] ?? '';
