@@ -1,0 +1,42 @@
+version: '3.8'
+networks:
+  entorno:
+services:
+  app:
+    build:
+      context:  ./
+      dockerfile: Dockerfile
+    container_name: php-app
+    restart: always
+    working_dir: /var/www/
+    volumes:
+      - ../src:/var/www
+    networks:
+      - entorno
+
+  nginx:
+     image: nginx:1.19-alpine
+     container_name: nginx-app
+     restart: always
+     ports:
+       - "8000:80"
+     volumes:
+      - ../src:/var/www
+      - ./nginx:/etc/nginx/conf.d
+     networks:
+       - entorno
+
+  mysql:
+    image: mysql:8.0.27
+    container_name: mysql-app
+    restart: always
+    tty: true
+    ports:
+      - "4306:3306"
+    volumes:
+      - ./mysql:/var/lib/mysql
+    environment:
+      MYSQL_DATABASE: colegio
+      MYSQL_ROOT_PASSWORD: root
+    networks:
+      - entorno
